@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
     fetch(api).then(data => {
         return data.json();
     }).then(data => {
-        console.log(data.activity);
+        var text = document.getElementById("thing").innerHTML = data.activity;
     })
 })
 
@@ -13,7 +13,6 @@ const reroll = () => {
         return data.json();
     }).then(data => {
         console.log(data.activity);
-        var p = document.getElementById("thing");
         var text = document.getElementById("thing").innerHTML = data.activity;
     })
 }
