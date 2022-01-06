@@ -1,0 +1,41 @@
+.body {
+  background-image: linear-gradient(to right, #161b30, #677fe2, #3e4d89);
+}
+
+.box {
+  text-align: center;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background-color: #8699e6;
+  border: none;
+  padding: 10px;
+  margin: auto;
+  border-radius: 15px;
+  flex: auto;
+  box-shadow: 4px 4px 2px 1px;
+}
+
+.box button {
+  width: 100px;
+  height: 30px;
+  position: relative;
+  text-decoration: wavy;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 8px 20px -6px;
+  border-radius: 8px;
+  padding: none;
+  margin-top: 250px;
+  margin-left: 400px;
+}
+
+.box button:hover {
+  background-color: rgb(0, 255, 213);
+  cursor: pointer;
+}
